@@ -1,0 +1,578 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200813.205043.17829.0.001.json",
+    "dumpEventTime": "2020-08-13T20:50:43Z",
+    "dumpEventTimeStamp": "1597362643917",
+    "processId": 17829,
+    "threadId": null,
+    "cwd": "/home/thiago/Área de Trabalho/Bootcamp/Desafios/Semana 3/Desafio 1 React/gostack-template-fundamentos-reactjs",
+    "commandLine": [
+      "/home/thiago/.nvm/versions/node/v12.16.2/bin/node",
+      "/home/thiago/Área de Trabalho/Bootcamp/Desafios/Semana 3/Desafio 1 React/gostack-template-fundamentos-reactjs/node_modules/jest-worker/build/workers/processChild.js"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "glibcVersionRuntime": "2.31",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.4.0-42-generic",
+    "osVersion": "#46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4299,
+        "user": 6784300,
+        "nice": 33200,
+        "sys": 809300,
+        "idle": 82946400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4300,
+        "user": 6249700,
+        "nice": 90300,
+        "sys": 933600,
+        "idle": 83611200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4299,
+        "user": 6478000,
+        "nice": 106500,
+        "sys": 795800,
+        "idle": 83648900,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4300,
+        "user": 6918000,
+        "nice": 93000,
+        "sys": 789800,
+        "idle": 83349200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4299,
+        "user": 6865700,
+        "nice": 73700,
+        "sys": 782600,
+        "idle": 83662900,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4300,
+        "user": 6625900,
+        "nice": 30100,
+        "sys": 782800,
+        "idle": 84086200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4300,
+        "user": 6450500,
+        "nice": 24400,
+        "sys": 796800,
+        "idle": 84129100,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4300,
+        "user": 7228400,
+        "nice": 17500,
+        "sys": 762400,
+        "idle": 83342300,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4300,
+        "user": 6697300,
+        "nice": 12500,
+        "sys": 752400,
+        "idle": 84016900,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4299,
+        "user": 3619400,
+        "nice": 23600,
+        "sys": 3063600,
+        "idle": 84144700,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4299,
+        "user": 6269400,
+        "nice": 30000,
+        "sys": 832200,
+        "idle": 82025300,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 4300,
+        "user": 6445000,
+        "nice": 41900,
+        "sys": 805100,
+        "idle": 82855600,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "eno1",
+        "internal": false,
+        "mac": "00:d8:61:32:15:31",
+        "address": "192.168.2.157",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "docker0",
+        "internal": false,
+        "mac": "02:42:fb:77:00:1b",
+        "address": "172.17.0.1",
+        "netmask": "255.255.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "eno1",
+        "internal": false,
+        "mac": "00:d8:61:32:15:31",
+        "address": "fe80::d21a:9f51:3ad5:6395",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      },
+      {
+        "name": "docker0",
+        "internal": false,
+        "mac": "02:42:fb:77:00:1b",
+        "address": "fe80::42:fbff:fe77:1b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "veth444f2f1",
+        "internal": false,
+        "mac": "e6:7f:2a:82:2b:50",
+        "address": "fe80::e47f:2aff:fe82:2b50",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      }
+    ],
+    "host": "thiago-linux"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b40285",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000a033ef",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b76ffe",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b77379",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d23ad5",
+      "symbol": " [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d24166",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d309e5",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d31895",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d3434c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cfaf1b",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x000000000103d85e",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x00000000013c03d9",
+      "symbol": " [/home/thiago/.nvm/versions/node/v12.16.2/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2167660544,
+    "totalCommittedMemory": 2167305536,
+    "usedMemory": 2070942832,
+    "availableMemory": 63502016,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554424,
+        "capacity": 16759296,
+        "used": 203232,
+        "available": 16556064
+      },
+      "old_space": {
+        "memorySize": 1885216768,
+        "committedMemory": 1885154064,
+        "capacity": 1823445240,
+        "used": 1823413336,
+        "available": 31904
+      },
+      "code_space": {
+        "memorySize": 1478656,
+        "committedMemory": 1425824,
+        "capacity": 987680,
+        "used": 987680,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2101248,
+        "committedMemory": 2090840,
+        "capacity": 1326720,
+        "used": 1326720,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 244998144,
+        "committedMemory": 244998144,
+        "capacity": 244976272,
+        "used": 244976272,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1138.77,
+    "kernelCpuSeconds": 7.34245,
+    "cpuConsumptionPercent": 112.144,
+    "maxRss": 2443587584,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 1827746
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 24
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 1015.16,
+    "kernelCpuSeconds": 3.88352,
+    "cpuConsumptionPercent": 99.7106,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 24
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "npm_package_devDependencies__types_node": "^12.0.0",
+    "npm_package_dependencies_react_dropzone": "^10.2.2",
+    "SPACESHIP_ROOT": "/home/thiago/.oh-my-zsh/custom/themes/spaceship-prompt",
+    "npm_package_devDependencies__types_react_router_dom": "^5.1.4",
+    "LANGUAGE": "pt_BR:pt:en",
+    "USER": "thiago",
+    "npm_package_devDependencies__testing_library_jest_dom": "^4.2.4",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.2 linux x64",
+    "npm_package_devDependencies__testing_library_user_event": "^7.1.2",
+    "npm_config_bin_links": "true",
+    "SSH_AGENT_PID": "6715",
+    "XDG_SESSION_TYPE": "x11",
+    "GIT_ASKPASS": "/usr/share/code/resources/app/extensions/git/dist/askpass.sh",
+    "npm_node_execpath": "/home/thiago/.nvm/versions/node/v12.16.2/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "2",
+    "npm_package_devDependencies_eslint_import_resolver_typescript": "^2.0.0",
+    "HOME": "/home/thiago",
+    "QT4_IM_MODULE": "ibus",
+    "OLDPWD": "/home/thiago/Área de Trabalho/Bootcamp/Desafios/Semana 3/Desafio 1 React/gostack-template-fundamentos-reactjs",
+    "LESS": "-R",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "npm_package_devDependencies__typescript_eslint_parser": "^2.28.0",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "DESKTOP_SESSION": "ubuntu",
+    "NVM_NODEJS_ORG_MIRROR": "https://nodejs.org/dist",
+    "NVM_BIN": "/home/thiago/.nvm/versions/node/v12.16.2/bin",
+    "TERM_PROGRAM_VERSION": "1.47.3",
+    "npm_package_devDependencies_eslint_config_prettier": "^6.10.1",
+    "npm_package_browserslist_production_1": "not dead",
+    "ZSH": "/home/thiago/.oh-my-zsh",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_config_init_license": "MIT",
+    "GTK_MODULES": "gail:atk-bridge",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "PAGER": "less",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "VSCODE_GIT_ASKPASS_MAIN": "/usr/share/code/resources/app/extensions/git/dist/askpass-main.js",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_package_devDependencies__types_axios": "^0.14.0",
+    "npm_config_version_tag_prefix": "v",
+    "MANAGERPID": "6519",
+    "VSCODE_GIT_ASKPASS_NODE": "/usr/share/code/code",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "npm_package_devDependencies_eslint_plugin_react_hooks": "^2.5.0",
+    "COLORTERM": "truecolor",
+    "npm_package_dependencies_react_scripts": "3.4.1",
+    "npm_package_dependencies_react_router_dom": "^5.1.2",
+    "ZPFX": "/home/thiago/.zinit/polaris",
+    "NVM_DIR": "/home/thiago/.nvm",
+    "NVM_PATH": "/home/thiago/.nvm/versions/node/v12.16.2/lib/node",
+    "npm_package_devDependencies__types_react_dom": "^16.9.0",
+    "IM_CONFIG_PHASE": "1",
+    "npm_package_devDependencies_prettier": "^2.0.4",
+    "GTK_IM_MODULE": "ibus",
+    "LOGNAME": "thiago",
+    "npm_package_devDependencies_eslint_plugin_import": "^2.20.1",
+    "_": "/usr/bin/yarn",
+    "JOURNAL_STREAM": "9:65192",
+    "npm_package_devDependencies_ts_jest": "^25.4.0",
+    "npm_package_devDependencies__types_jest": "^24.0.0",
+    "npm_package_dependencies_polished": "^3.5.2",
+    "npm_package_private": "true",
+    "XDG_SESSION_CLASS": "user",
+    "npm_package_devDependencies__typescript_eslint_eslint_plugin": "^2.28.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "USERNAME": "thiago",
+    "TERM": "xterm-256color",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "npm_package_scripts_start": "react-app-rewired start",
+    "npm_package_dependencies_filesize": "^6.1.0",
+    "npm_config_ignore_scripts": "",
+    "WINDOWPATH": "2",
+    "ZSH_CACHE_DIR": "/home/thiago/.oh-my-zsh/cache",
+    "PMSPEC": "0uUpiPsf",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "PATH": "/tmp/yarn--1597361620624-0.04891484684317615:/home/thiago/Área de Trabalho/Bootcamp/Desafios/Semana 3/Desafio 1 React/gostack-template-fundamentos-reactjs/node_modules/.bin:/home/thiago/.config/yarn/link/node_modules/.bin:/home/thiago/.yarn/bin:/home/thiago/.nvm/versions/node/v12.16.2/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/thiago/.nvm/versions/node/v12.16.2/lib/node_modules/npm/bin/node-gyp-bin:/home/thiago/.nvm/versions/node/v12.16.2/bin/node_modules/npm/bin/node-gyp-bin:/home/thiago/.nvm/versions/node/v12.16.2/bin:/home/thiago/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "NODE": "/home/thiago/.nvm/versions/node/v12.16.2/bin/node",
+    "SESSION_MANAGER": "local/thiago-linux:@/tmp/.ICE-unix/6780,unix/thiago-linux:/tmp/.ICE-unix/6780",
+    "INVOCATION_ID": "d95101f43a8745ada726410c56916b45",
+    "NVM_IOJS_ORG_MIRROR": "https://iojs.org/dist",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_name": "desafio-07",
+    "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/9e36b069_2dad_44ac_8d3f_0af36272bc1b",
+    "XDG_MENU_PREFIX": "gnome-",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "npm_package_devDependencies_eslint_plugin_jsx_a11y": "^6.2.3",
+    "npm_package_devDependencies_axios_mock_adapter": "^1.18.1",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "DISPLAY": ":1",
+    "npm_package_devDependencies_eslint_config_airbnb": "^18.1.0",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "XDG_CURRENT_DESKTOP": "Unity",
+    "LANG": "pt_BR.UTF-8",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies__types_styled_components": "^5.1.0",
+    "npm_package_dependencies_react_dom": "^16.13.1",
+    "npm_package_dependencies_history": "^4.10.1",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "GNOME_TERMINAL_SERVICE": ":1.97",
+    "XMODIFIERS": "@im=ibus",
+    "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "TERM_PROGRAM": "vscode",
+    "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/vscode-git-59aac7ee5d.sock",
+    "npm_lifecycle_script": "react-app-rewired test",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+    "npm_package_scripts_test": "react-app-rewired test",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/usr/bin/zsh",
+    "npm_lifecycle_event": "test",
+    "npm_package_devDependencies__types_react": "^16.9.0",
+    "npm_package_devDependencies__testing_library_react": "^9.3.2",
+    "npm_package_version": "0.1.0",
+    "QT_ACCESSIBILITY": "1",
+    "GDMSESSION": "ubuntu",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\"]}",
+    "npm_package_scripts_build": "react-app-rewired build",
+    "npm_package_devDependencies_react_app_rewired": "^2.1.5",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "npm_package_devDependencies_eslint_plugin_react": "^7.19.0",
+    "npm_config_strict_ssl": "true",
+    "QT_IM_MODULE": "ibus",
+    "SPACESHIP_VERSION": "3.11.2",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.3",
+    "PWD": "/home/thiago/Área de Trabalho/Bootcamp/Desafios/Semana 3/Desafio 1 React/gostack-template-fundamentos-reactjs",
+    "npm_execpath": "/usr/share/yarn/bin/yarn.js",
+    "CLUTTER_IM_MODULE": "ibus",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "XDG_DATA_DIRS": "/usr/share/ubuntu:/home/thiago/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "NVM_CD_FLAGS": "-q",
+    "npm_package_dependencies_styled_components": "^5.1.0",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "VTE_VERSION": "6003",
+    "MANPATH": "/home/thiago/.nvm/versions/node/v12.16.2/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man",
+    "npm_package_dependencies_typescript": "~3.7.2",
+    "INIT_CWD": "/home/thiago/Área de Trabalho/Bootcamp/Desafios/Semana 3/Desafio 1 React/gostack-template-fundamentos-reactjs",
+    "npm_package_dependencies_react": "^16.13.1",
+    "NODE_ENV": "test",
+    "NODE_PATH": "",
+    "BABEL_ENV": "test",
+    "PUBLIC_URL": "",
+    "JEST_WORKER_ID": "1",
+    "FORCE_COLOR": "1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 67108864,
+      "hard": 67108864
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 63327,
+      "hard": 63327
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
